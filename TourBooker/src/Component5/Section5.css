@@ -1,0 +1,52 @@
+.five{
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+
+.five .class{
+
+    display: flex;
+    border: 1px solid black;
+    margin-left: 20rem;
+    margin-right: 25rem;
+    background-color:aliceblue ;
+    border-radius: 35px;
+    border: none;
+    
+    
+}
+
+.five .class .left{
+
+padding-top: 5rem;
+padding-left: 5rem;
+padding-bottom: 5rem;
+padding-right: 7rem;
+width: 70%;
+
+}
+
+.five .class .left h1{
+
+    font-size: 3rem;
+    color: orange;
+}
+
+.five .class .left span{
+
+    font-size: 1.4rem;
+}
+
+.five .class .right img{
+
+    width: 100%;
+    height: 35vh;
+
+}
+
+.five .class .right{
+
+padding-left: 10rem;
+padding-top: 3rem;
+
+}

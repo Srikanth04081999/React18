@@ -1,0 +1,102 @@
+.left header{
+
+    padding: 0.5rem 0.5rem 3rem 0.5rem; 
+    display: flex;
+    gap: 1rem;
+    color: orange;
+}
+header  img{
+    padding-top: 1rem;
+    height: 3rem;
+}
+
+header h1{
+
+    font-size: 2rem;
+}
+
+.one{
+    
+        
+    display: grid;
+    grid-template-columns: 50% auto;
+    position: relative;
+}
+.one .left{
+    padding: 3rem 2rem 4rem 2.5rem;
+}
+.one .left h1{
+
+    font-size: 3rem;
+    font-weight: 510;
+    color: orange;
+}
+
+.one .left h2{
+
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.one .left h3{
+
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    color: orange;
+
+}
+
+.one .time ul {
+
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    font-size: 1.7rem;
+    font-weight: 600;
+    justify-content: center;
+    width: 80%;
+    padding-top: 2rem;
+    padding-bottom: rem;
+}
+
+.one .left .time ul li{
+
+    border: 1px solid lightslategray;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 7px;
+    padding: 0.7rem;
+    color: orange;
+    text-align: center;
+
+}
+
+
+
+
+.one .right .front{
+
+    width: auto;
+    position: absolute;
+    top:17%;
+    right: 15%;
+    height: 70vh;
+    width: auto;
+    border: 15px solid white;
+    border-radius: 4rem;
+
+}
+
+.one .right .back{
+    position: absolute;
+    width: 100%; 
+    height: 100vh;
+    z-index: -1;
+    top: -10%;
+    left: 20%;
+
+}  
+

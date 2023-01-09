@@ -1,0 +1,58 @@
+.three{
+    
+    text-align: center;
+    padding-bottom: 8rem;
+
+ }
+
+ .three h1{
+
+    font-size: 4rem;
+    font-weight: 500;
+    padding-bottom: 7rem;
+    padding-top: 5rem;
+    color: orange;
+
+ }
+
+ .three .box2 img{
+
+    width: 100%;
+    height: 33vh;
+
+ }
+
+ .three .box2 ul{
+
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    list-style: none;
+    padding-bottom: 3rem;
+ }
+
+ .three .box2 ul li{
+
+    border: 1px solid lightslategray;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.6rem;
+   
+ }
+
+ .three .box2 ul li button{
+
+    padding: 12px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-left: 8px;
+    border-radius: 12px;
+    background-color: orange;
+    border: none;
+    color: white;
+    
+
+ }

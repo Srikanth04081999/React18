@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+html {
+  font-size: 1.5rem;
+}
+
+.main-div {
+    background: #060822;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  .main-div1 {
+    /* min-height: 100vh; */
+    padding-bottom: 16rem;
+    background: #060822;
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style: none;
+
+  }
+
+  .main-div2 {
+    padding-top: 4rem;
+    background: #060822;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size:1.5rem ;
+  }
+  .child-div {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .child-div figure img {
+    width: 8rem;
+    height: 5rem;
+  }
+  input {
+    height: 1.9rem;
+    width: 16rem;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    border-radius: 10px;
+  }
+  button {
+    height: 1.9rem;
+    width: 4rem;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    margin-left:1rem ;
+    border-radius: 10px;
+    background-color: royalblue;
+    color: white;
+    font-weight: 600;
+  }
+  
